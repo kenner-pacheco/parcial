@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NaturalVida - Productos Naturales</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+  <div class="titulo">
+    <h1>NaturalVida</h1>
+    <p>Bienvenido, <span id="nombreUsuario"></span></p>
+    <nav>
+      <input type="button" value="Inicio" class="inicio" id="inicio">
+      <input type="button" value="Productos" class="productos" id="productos">
+      <input type="button" value="Nosotros" class="nosotros" id="nosotros">
+      <input type="button" value="contactanos" class="contactanos" id="contactanos">
+      <input type="button" value="cerrar sesion" class="cerrar_sesion" id="cerrar_sesion">
+    </nav>
+  </div>
+
+  <div class="subtitulo">
+    <h2>Transforma Tu Salud Con El Poder De Lo Natural</h2>
+  </div>
+  <div class="products">
+    <div class="product">
+      <img src="../img/maca.jpg" alt="Maca Energética">
+      <h3>Maca Energética</h3>
+      <p>Aumenta tu energía y vitalidad de forma 100% natural.</p>
+    </div>
+    <div class="product">
+      <img src="../img/photo playa.jpeg" alt="Detox Herbal">
+      <h3>Detox Herbal</h3>
+      <p>Purifica tu cuerpo con hierbas desintoxicantes.</p>
+    </div>
+    <div class="product">
+      <img src="../img/cafe verde .jpg" alt="Café Verde Slim">
+      <h3>Café Verde Slim</h3>
+      <p>Apoya la quema de grasa y controla el apetito.</p>
+    </div>
+  </div>
+  <button id="toggleBtn">Mostrar mapa y video</button>
+<div id="contenedorMultimedia" class="contenedor-horizontal" style="display: none;">
+  <div class="contenedor-horizontal">
+  <div class="mapa">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=..."
+      width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <p>📍 <a href="https://goo.gl/maps/tuubicacion" target="_blank">Ver nuestra ubicación en Google Maps</a></p>
+  </div>
+
+  <div class="video">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/FIFnkivZdbk?si=lNNM4Nq6Zwirzfc3"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+</div>
+</div>
+  <footer>
+    &copy; 2025 NaturalVida | Salud y Bienestar Natural
+  </footer>
+</body>
+<script src="../js/index.js"></script>
+<script src="../js/usuario.js"></script>
+<script src="../js/ocultar.js"></script>
+
+</html>

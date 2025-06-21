@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="../css/conocenos.css" />
+</head>
+<body>
+    
+    <div class="titulo">
+    <h1>NaturalVida</h1>
+    <p> <span id="nombreUsuario"></span></p>
+    <nav>
+      <input type="button" value="Inicio" class="inicio" id="inicio">
+      <input type="button" value="Productos" class="productos" id="productos" >
+      <input type="button" value="Nosotros" class="nosotros" id="nosotros">
+      <input type="button" value="contactanos" class="contactanos" id="contactanos">
+      <input type="button" value="cerrar sesion" class="cerrar_sesion" id="cerrar_sesion">
+      
+    </nav>
+  </div>
+  <section class="contacto">
+    <P>¿Tienes preguntas, sugerencias o necesitas ayuda? ¡Estamos para escucharte!S</P>
+    <form id="formContacto">
+      <input type="text" id="nombre" placeholder="Tu nombre" required />
+      <input type="email" id="correo" placeholder="Correo electrónico" required />
+      <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+
+    <div class="info">
+      <p>📍 Dirección: Carrera 43 #108-10, Barranquilla</p>
+      <p>📞 Teléfono: +57 301 123 4567</p>
+      <p>📧 Email: contacto@naturalvida.com</p>
+      <a href="https://www.google.com/maps?q=Carrera+43+%23108-10,+Barranquilla" target="_blank">🗺️ Ver en Google Maps</a>
+    </div>
+  </section>
+</body>
+<script src="../js/contactanos.js"></script>
+<script src="../js/usuario.js"></script>
+</html>

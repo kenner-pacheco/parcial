@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios de administrador</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+  <header>
+    <h1>Administración de Usuarios</h1>
+    <p>Usuario conectado: <span id="nombreUsuario">Invitado</span></p>
+  </header>
+
+  <main>
+    <form id="userForm">
+      <input type="hidden" id="userIndex" />
+      <label for="username">Nombre de usuario:</label>
+      <input type="text" id="username" required />
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" required />
+
+      <button type="button" id="presionar">Crear Usuario</button>
+    </form>
+
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>Usuario</th>
+          <th>Contraseña</th>
+          <th>Nombre</th>
+          <th>Rol</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="userTableBody"></tbody>
+    </table>
+  </main>
+
+  <script src="../js/admin.js"></script>
+  <script src="../js/usuario.js"></script>
+</body>
+</html>

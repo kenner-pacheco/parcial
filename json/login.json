@@ -1,0 +1,36 @@
+{
+  "lista": {
+    "usuarios": [
+      {
+        "usuario": "admin",
+        "clave": "admin123",
+        "nombre": "Administrador",
+        "rol": "admin"
+      },
+      {
+        "usuario": "jdanyer",
+        "clave": "17808839",
+        "nombre": "Danyerson Velasques",
+        "rol": "usuario"
+      },
+      {
+        "usuario": "luchitodias",
+        "clave": "123456789",
+        "nombre": "wilder vargas",
+        "rol": "usuario"
+      },
+      {
+        "usuario": "felix",
+        "clave": "felix1234",
+        "nombre": "felix hernandes",
+        "rol": "usuario"
+      },
+      {
+        "usuario": "daniel",
+        "clave": "1234",
+        "nombre": "daniel",
+        "rol": "usuario"
+      }
+    ]
+  }
+}

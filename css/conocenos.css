@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #050505;
+}
+.titulo {
+      background-color: #0b8457;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+nav input[type="button"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 0 0 transparent;
+}
+
+nav input[type="button"]:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+nav input[type="button"]:active {
+  background-color: rgba(255, 255, 255, 0.25);
+  transform: scale(0.97);
+}
+section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #0b8457;
+  border-radius: 10px;
+}
+h1 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+footer.informacion {
+  background-color: #274b32;
+  color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+footer.informacion li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
